@@ -1,7 +1,7 @@
 FROM debian:11
 FROM python:3.9.7-slim-buster
 
-WORKDIR /SkyzuRobot/
+WORKDIR /SkyslashhRobot/
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get -y install git
